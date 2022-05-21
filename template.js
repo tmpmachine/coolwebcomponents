@@ -1,3 +1,5 @@
+// https://coolwebcomponents.blogspot.com/2022/05/clone-template-interface.html
+
 window.template = (function() {
   
   let $ = document.querySelectorAll.bind(document);
