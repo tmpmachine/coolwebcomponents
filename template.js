@@ -13,7 +13,7 @@ window.template = (function() {
   function clone(selector) {
     
     let node = $(selector)[0].content.cloneNode(true);
-    node.get = getChild;
+    node.getChild = getChild;
     return node;
   }
   
